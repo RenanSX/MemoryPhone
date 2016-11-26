@@ -1,0 +1,36 @@
+c:\users\renan.xavier\documents\visual studio 2015\Projects\metronovoteste\metronovoteste\bin\Debug\metronovoteste.exe.config
+c:\users\renan.xavier\documents\visual studio 2015\Projects\metronovoteste\metronovoteste\bin\Debug\metronovoteste.exe
+c:\users\renan.xavier\documents\visual studio 2015\Projects\metronovoteste\metronovoteste\bin\Debug\metronovoteste.pdb
+c:\users\renan.xavier\documents\visual studio 2015\Projects\metronovoteste\metronovoteste\bin\Debug\MetroFramework.dll
+c:\users\renan.xavier\documents\visual studio 2015\Projects\metronovoteste\metronovoteste\bin\Debug\MetroFramework.Fonts.dll
+c:\users\renan.xavier\documents\visual studio 2015\Projects\metronovoteste\metronovoteste\obj\Debug\metronovoteste.csprojResolveAssemblyReference.cache
+c:\users\renan.xavier\documents\visual studio 2015\Projects\metronovoteste\metronovoteste\obj\Debug\metronovoteste.Form1.resources
+c:\users\renan.xavier\documents\visual studio 2015\Projects\metronovoteste\metronovoteste\obj\Debug\metronovoteste.Properties.Resources.resources
+c:\users\renan.xavier\documents\visual studio 2015\Projects\metronovoteste\metronovoteste\obj\Debug\metronovoteste.csproj.GenerateResource.Cache
+c:\users\renan.xavier\documents\visual studio 2015\Projects\metronovoteste\metronovoteste\obj\Debug\metronovoteste.exe
+c:\users\renan.xavier\documents\visual studio 2015\Projects\metronovoteste\metronovoteste\obj\Debug\metronovoteste.pdb
+C:\Users\renan\Desktop\memoryphone\Teste MenuStrip Metro\metronovoteste\metronovoteste\bin\Debug\metronovoteste.exe.config
+C:\Users\renan\Desktop\memoryphone\Teste MenuStrip Metro\metronovoteste\metronovoteste\obj\Debug\metronovoteste.exe
+C:\Users\renan\Desktop\memoryphone\Teste MenuStrip Metro\metronovoteste\metronovoteste\obj\Debug\metronovoteste.pdb
+C:\Users\renan\Desktop\memoryphone\Teste MenuStrip Metro\metronovoteste\metronovoteste\bin\Debug\metronovoteste.exe
+C:\Users\renan\Desktop\memoryphone\Teste MenuStrip Metro\metronovoteste\metronovoteste\bin\Debug\metronovoteste.pdb
+C:\Users\renan\Desktop\memoryphone\Teste MenuStrip Metro\metronovoteste\metronovoteste\bin\Debug\MetroFramework.dll
+C:\Users\renan\Desktop\memoryphone\Teste MenuStrip Metro\metronovoteste\metronovoteste\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\renan\Desktop\memoryphone\Teste MenuStrip Metro\metronovoteste\metronovoteste\obj\Debug\metronovoteste.Properties.Resources.resources
+C:\Users\renan\Desktop\memoryphone\Teste MenuStrip Metro\metronovoteste\metronovoteste\obj\Debug\metronovoteste.csproj.GenerateResource.Cache
+C:\Users\renan\Desktop\memoryphone\Teste MenuStrip Metro\metronovoteste\metronovoteste\bin\Debug\MetroFramework.Design.dll
+C:\Users\renan\Desktop\memoryphone\Teste MenuStrip Metro\metronovoteste\metronovoteste\obj\Debug\metronovoteste.Login.resources
+C:\Users\renan\Desktop\memoryphone\Teste MenuStrip Metro\metronovoteste\metronovoteste\obj\Debug\metronovoteste.Tela_Principal.resources
+C:\Users\renan\Source\Repos\MemoryPhone\metronovoteste\bin\Debug\metronovoteste.exe.config
+C:\Users\renan\Source\Repos\MemoryPhone\metronovoteste\obj\Debug\metronovoteste.exe
+C:\Users\renan\Source\Repos\MemoryPhone\metronovoteste\obj\Debug\metronovoteste.pdb
+C:\Users\renan\Source\Repos\MemoryPhone\metronovoteste\bin\Debug\metronovoteste.exe
+C:\Users\renan\Source\Repos\MemoryPhone\metronovoteste\bin\Debug\metronovoteste.pdb
+C:\Users\renan\Source\Repos\MemoryPhone\metronovoteste\bin\Debug\MetroFramework.Design.dll
+C:\Users\renan\Source\Repos\MemoryPhone\metronovoteste\bin\Debug\MetroFramework.dll
+C:\Users\renan\Source\Repos\MemoryPhone\metronovoteste\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\renan\Source\Repos\MemoryPhone\metronovoteste\obj\Debug\metronovoteste.csprojResolveAssemblyReference.cache
+C:\Users\renan\Source\Repos\MemoryPhone\metronovoteste\obj\Debug\metronovoteste.Login.resources
+C:\Users\renan\Source\Repos\MemoryPhone\metronovoteste\obj\Debug\metronovoteste.Tela_Principal.resources
+C:\Users\renan\Source\Repos\MemoryPhone\metronovoteste\obj\Debug\metronovoteste.Properties.Resources.resources
+C:\Users\renan\Source\Repos\MemoryPhone\metronovoteste\obj\Debug\metronovoteste.csproj.GenerateResource.Cache
