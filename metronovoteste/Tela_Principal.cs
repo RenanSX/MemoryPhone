@@ -7,10 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using metronovoteste.metro;
+using MetroFramework.Forms;
 
 namespace metronovoteste
 {
-    public partial class Tela_Principal : Form
+    public partial class Tela_Principal : MetroForm
     {
         public Tela_Principal()
         {
@@ -21,6 +22,10 @@ namespace metronovoteste
                 MetroUI.Style.PropertyChanged += Style_PropertyChanged;
                 MetroUI.Style.DarkStyle = true;
             }
+            
+            this.WindowState = FormWindowState.Maximized;
+            
+            
 
         }
 

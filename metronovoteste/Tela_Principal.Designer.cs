@@ -82,9 +82,9 @@
             this.arquivosToolStripMenuItem,
             this.menu3ToolStripMenuItem,
             this.menu4ToolStripMenuItem});
-            this.metroMenuStrip2.Location = new System.Drawing.Point(0, 0);
+            this.metroMenuStrip2.Location = new System.Drawing.Point(20, 60);
             this.metroMenuStrip2.Name = "metroMenuStrip2";
-            this.metroMenuStrip2.Size = new System.Drawing.Size(1011, 28);
+            this.metroMenuStrip2.Size = new System.Drawing.Size(971, 28);
             this.metroMenuStrip2.TabIndex = 0;
             this.metroMenuStrip2.Text = "metroMenuStrip2";
             // 
@@ -158,11 +158,18 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackImage = global::metronovoteste.Properties.Resources.logo;
+            this.BackImagePadding = new System.Windows.Forms.Padding(30, 5, 0, 0);
+            this.BackMaxSize = 70;
             this.ClientSize = new System.Drawing.Size(1011, 530);
             this.Controls.Add(this.metroMenuStrip2);
             this.MainMenuStrip = this.metroMenuStrip2;
             this.Name = "Tela_Principal";
-            this.Text = "Form1";
+            this.Style = MetroFramework.MetroColorStyle.Red;
+            this.Text = "MemoryPhone";
+            this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
+            this.Theme = MetroFramework.MetroThemeStyle.Default;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.metroMenuStrip2.ResumeLayout(false);
             this.metroMenuStrip2.PerformLayout();

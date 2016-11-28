@@ -34,3 +34,16 @@ C:\Users\renan\Source\Repos\MemoryPhone\metronovoteste\obj\Debug\metronovoteste.
 C:\Users\renan\Source\Repos\MemoryPhone\metronovoteste\obj\Debug\metronovoteste.Tela_Principal.resources
 C:\Users\renan\Source\Repos\MemoryPhone\metronovoteste\obj\Debug\metronovoteste.Properties.Resources.resources
 C:\Users\renan\Source\Repos\MemoryPhone\metronovoteste\obj\Debug\metronovoteste.csproj.GenerateResource.Cache
+C:\Users\pedro.rezende\Source\Repos\MemoryPhone\metronovoteste\bin\Debug\metronovoteste.exe.config
+C:\Users\pedro.rezende\Source\Repos\MemoryPhone\metronovoteste\obj\Debug\metronovoteste.exe
+C:\Users\pedro.rezende\Source\Repos\MemoryPhone\metronovoteste\obj\Debug\metronovoteste.pdb
+C:\Users\pedro.rezende\Source\Repos\MemoryPhone\metronovoteste\bin\Debug\metronovoteste.exe
+C:\Users\pedro.rezende\Source\Repos\MemoryPhone\metronovoteste\bin\Debug\metronovoteste.pdb
+C:\Users\pedro.rezende\Source\Repos\MemoryPhone\metronovoteste\bin\Debug\MetroFramework.Design.dll
+C:\Users\pedro.rezende\Source\Repos\MemoryPhone\metronovoteste\bin\Debug\MetroFramework.dll
+C:\Users\pedro.rezende\Source\Repos\MemoryPhone\metronovoteste\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\pedro.rezende\Source\Repos\MemoryPhone\metronovoteste\obj\Debug\metronovoteste.csprojResolveAssemblyReference.cache
+C:\Users\pedro.rezende\Source\Repos\MemoryPhone\metronovoteste\obj\Debug\metronovoteste.Login.resources
+C:\Users\pedro.rezende\Source\Repos\MemoryPhone\metronovoteste\obj\Debug\metronovoteste.Tela_Principal.resources
+C:\Users\pedro.rezende\Source\Repos\MemoryPhone\metronovoteste\obj\Debug\metronovoteste.Properties.Resources.resources
+C:\Users\pedro.rezende\Source\Repos\MemoryPhone\metronovoteste\obj\Debug\metronovoteste.csproj.GenerateResource.Cache
