@@ -33,7 +33,10 @@
             this.metroTextBox2 = new MetroFramework.Controls.MetroTextBox();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
             this.metroLink1 = new MetroFramework.Controls.MetroLink();
-            this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
+            this.metroPanel2 = new MetroFramework.Controls.MetroPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.metroPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // metroTextBox1
@@ -52,7 +55,7 @@
             this.metroTextBox1.CustomButton.Visible = false;
             this.metroTextBox1.Lines = new string[] {
         "Usuário"};
-            this.metroTextBox1.Location = new System.Drawing.Point(65, 332);
+            this.metroTextBox1.Location = new System.Drawing.Point(208, 280);
             this.metroTextBox1.MaxLength = 32767;
             this.metroTextBox1.Name = "metroTextBox1";
             this.metroTextBox1.PasswordChar = '\0';
@@ -84,7 +87,7 @@
             this.metroTextBox2.CustomButton.Visible = false;
             this.metroTextBox2.Lines = new string[] {
         "Senha"};
-            this.metroTextBox2.Location = new System.Drawing.Point(65, 380);
+            this.metroTextBox2.Location = new System.Drawing.Point(208, 328);
             this.metroTextBox2.MaxLength = 32767;
             this.metroTextBox2.Name = "metroTextBox2";
             this.metroTextBox2.PasswordChar = '\0';
@@ -106,7 +109,7 @@
             this.metroButton1.BackColor = System.Drawing.Color.White;
             this.metroButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.metroButton1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.metroButton1.Location = new System.Drawing.Point(65, 448);
+            this.metroButton1.Location = new System.Drawing.Point(208, 396);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(245, 39);
             this.metroButton1.TabIndex = 4;
@@ -117,39 +120,57 @@
             // metroLink1
             // 
             this.metroLink1.Cursor = System.Windows.Forms.Cursors.Help;
-            this.metroLink1.Location = new System.Drawing.Point(198, 416);
+            this.metroLink1.Location = new System.Drawing.Point(341, 364);
             this.metroLink1.Name = "metroLink1";
             this.metroLink1.Size = new System.Drawing.Size(112, 17);
             this.metroLink1.TabIndex = 5;
             this.metroLink1.Text = "Esqueceu a senha?";
             this.metroLink1.UseSelectable = true;
             // 
-            // metroPanel1
+            // metroPanel2
             // 
-            this.metroPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("metroPanel1.BackgroundImage")));
-            this.metroPanel1.HorizontalScrollbarBarColor = true;
-            this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroPanel1.HorizontalScrollbarSize = 10;
-            this.metroPanel1.Location = new System.Drawing.Point(65, 64);
-            this.metroPanel1.Name = "metroPanel1";
-            this.metroPanel1.Size = new System.Drawing.Size(245, 250);
-            this.metroPanel1.TabIndex = 6;
-            this.metroPanel1.VerticalScrollbarBarColor = true;
-            this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
-            this.metroPanel1.VerticalScrollbarSize = 10;
+            this.metroPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.metroPanel2.BackColor = System.Drawing.Color.White;
+            this.metroPanel2.Controls.Add(this.pictureBox1);
+            this.metroPanel2.Controls.Add(this.metroLink1);
+            this.metroPanel2.Controls.Add(this.metroButton1);
+            this.metroPanel2.Controls.Add(this.metroTextBox1);
+            this.metroPanel2.Controls.Add(this.metroTextBox2);
+            this.metroPanel2.HorizontalScrollbarBarColor = true;
+            this.metroPanel2.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroPanel2.HorizontalScrollbarSize = 10;
+            this.metroPanel2.Location = new System.Drawing.Point(460, 91);
+            this.metroPanel2.Name = "metroPanel2";
+            this.metroPanel2.Size = new System.Drawing.Size(632, 531);
+            this.metroPanel2.TabIndex = 7;
+            this.metroPanel2.VerticalScrollbarBarColor = true;
+            this.metroPanel2.VerticalScrollbarHighlightOnWheel = false;
+            this.metroPanel2.VerticalScrollbarSize = 10;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::metronovoteste.Properties.Resources.logo;
+            this.pictureBox1.Location = new System.Drawing.Point(208, 74);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(245, 182);
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
             // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(374, 554);
-            this.Controls.Add(this.metroPanel1);
-            this.Controls.Add(this.metroLink1);
-            this.Controls.Add(this.metroButton1);
-            this.Controls.Add(this.metroTextBox2);
-            this.Controls.Add(this.metroTextBox1);
+            this.ClientSize = new System.Drawing.Size(1479, 682);
+            this.Controls.Add(this.metroPanel2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
-            this.Text = "Login";
+            this.Style = MetroFramework.MetroColorStyle.Red;
+            this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
+            this.Theme = MetroFramework.MetroThemeStyle.Default;
+            this.metroPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -159,6 +180,7 @@
         private MetroFramework.Controls.MetroTextBox metroTextBox2;
         private MetroFramework.Controls.MetroButton metroButton1;
         private MetroFramework.Controls.MetroLink metroLink1;
-        private MetroFramework.Controls.MetroPanel metroPanel1;
+        private MetroFramework.Controls.MetroPanel metroPanel2;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -8,7 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using metronovoteste.metro;
 using MetroFramework.Forms;
-
+using metronovoteste.metro;
 namespace metronovoteste
 {
     public partial class Tela_Principal : MetroForm
@@ -20,7 +20,7 @@ namespace metronovoteste
             if (MetroUI.DesignMode == false)
             {
                 MetroUI.Style.PropertyChanged += Style_PropertyChanged;
-                MetroUI.Style.DarkStyle = true;
+                 MetroUI.Style.DarkStyle = true;
             }
             
             this.WindowState = FormWindowState.Maximized;
@@ -31,7 +31,8 @@ namespace metronovoteste
 
         void Style_PropertyChanged(object sender, PropertyChangedEventArgs e)
         {
-            if (e.PropertyName == "WhiteStyle")
+          
+            if (e.PropertyName == "DarkStyle")
             {
                 BackColor = MetroUI.Style.BackColor;
                 Refresh();
@@ -52,5 +53,43 @@ namespace metronovoteste
         {
             
         }
+
+        private void éToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            this.Hide();
+            //this.Dispose();
+            
+
+        }
+        protected override void WndProc(ref Message msg)
+        {
+            if (msg.Msg == 0x84) // WM_NCHITTEST
+                msg.Result = (IntPtr)0x02;  // HTCAPTION
+            else
+                base.WndProc(ref msg);
+        }
+        protected override void OnPaint(PaintEventArgs e)
+        {
+            base.OnPaint(e);
+            using (Pen pen = new Pen(MetroUI.Style.AccentColor))
+            {
+                e.Graphics.DrawRectangle(pen, 0, 0, Width - 1, Height - 1);
+            }
+
+            using (SolidBrush brush = new SolidBrush(MetroUI.Style.AccentColor))
+            {
+                e.Graphics.DrawString(Text.ToUpper(), MetroUI.Style.LightFont, brush, 10, 8);
+            }
+        }
+
+        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+            //Close();
+        }
+
+        
     }
 }

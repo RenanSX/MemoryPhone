@@ -69,6 +69,9 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="metro\MenuToolbar.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Tela_Principal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,9 +79,6 @@
       <DependentUpon>Tela_Principal.cs</DependentUpon>
     </Compile>
     <Compile Include="metro\ImageEx.cs" />
-    <Compile Include="metro\MenuToolbar.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="metro\MetroMenuStrip.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -120,6 +120,39 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="img\logo.jpg" />
+    <Content Include="img\backup.png" />
+    <Content Include="img\cadastro.png" />
+    <Content Include="img\cadastro2.png" />
+    <Content Include="img\cadastro3.png" />
+    <Content Include="img\cadastro4.png" />
+    <Content Include="img\chamada.png" />
+    <Content Include="img\chamda2.png" />
+    <Content Include="img\cliente.jpg" />
+    <Content Include="img\deletarpng.png" />
+    <Content Include="img\editar.png" />
+    <Content Include="img\editar2.png" />
+    <Content Include="img\fechar.png" />
+    <Content Include="img\fornecedor.png" />
+    <Content Include="img\fornecedor2.png" />
+    <Content Include="img\original\backup.png" />
+    <Content Include="img\original\cadastro.png" />
+    <Content Include="img\original\cadastro2.png" />
+    <Content Include="img\original\cadastro3.png" />
+    <Content Include="img\original\cadastro4.png" />
+    <Content Include="img\original\chamada.png" />
+    <Content Include="img\original\chamda2.png" />
+    <Content Include="img\original\cliente.jpg" />
+    <Content Include="img\original\deletarpng.png" />
+    <Content Include="img\original\editar.png" />
+    <Content Include="img\original\editar2.png" />
+    <Content Include="img\original\fechar.png" />
+    <Content Include="img\original\fornecedor.png" />
+    <Content Include="img\original\fornecedor2.png" />
+    <Content Include="img\original\logo.jpg" />
+    <Content Include="img\original\restaurabackup.png" />
+    <Content Include="img\original\salvar.png" />
+    <Content Include="img\restaurabackup.png" />
+    <Content Include="img\salvar.png" />
     <Content Include="MetroFramework.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
