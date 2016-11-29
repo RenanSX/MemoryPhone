@@ -28,7 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tela_Principal));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.sEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.éToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lOKOToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -55,8 +59,22 @@
             this.metroButton3 = new MetroFramework.Controls.MetroButton();
             this.metroButton2 = new MetroFramework.Controls.MetroButton();
             this.metroButton1 = new MetroFramework.Controls.MetroButton();
+            this.metroGrid1 = new MetroFramework.Controls.MetroGrid();
+            this.cODTABLEDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dESCRICAODataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.vALORDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sTATUSDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tBLHTMLBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.bD16006ADataSet = new metronovoteste.BD16006ADataSet();
+            this.allselectToolStrip = new System.Windows.Forms.ToolStrip();
+            this.allselectToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.tBL_HTMLTableAdapter = new metronovoteste.BD16006ADataSetTableAdapters.TBL_HTMLTableAdapter();
             this.metroMenuStrip2.SuspendLayout();
             this.metroPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tBLHTMLBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bD16006ADataSet)).BeginInit();
+            this.allselectToolStrip.SuspendLayout();
             this.SuspendLayout();
             // 
             // sEToolStripMenuItem
@@ -221,7 +239,7 @@
             this.metroPanel1.HorizontalScrollbarSize = 10;
             this.metroPanel1.Location = new System.Drawing.Point(23, 91);
             this.metroPanel1.Name = "metroPanel1";
-            this.metroPanel1.Size = new System.Drawing.Size(115, 426);
+            this.metroPanel1.Size = new System.Drawing.Size(115, 442);
             this.metroPanel1.TabIndex = 1;
             this.metroPanel1.VerticalScrollbar = true;
             this.metroPanel1.VerticalScrollbarBarColor = true;
@@ -283,6 +301,116 @@
             this.metroButton1.TabIndex = 2;
             this.metroButton1.UseSelectable = true;
             // 
+            // metroGrid1
+            // 
+            this.metroGrid1.AllowUserToResizeRows = false;
+            this.metroGrid1.AutoGenerateColumns = false;
+            this.metroGrid1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            this.metroGrid1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.metroGrid1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.metroGrid1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.metroGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.metroGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.metroGrid1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.cODTABLEDataGridViewTextBoxColumn,
+            this.dESCRICAODataGridViewTextBoxColumn,
+            this.vALORDataGridViewTextBoxColumn,
+            this.sTATUSDataGridViewTextBoxColumn});
+            this.metroGrid1.DataSource = this.tBLHTMLBindingSource;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.metroGrid1.DefaultCellStyle = dataGridViewCellStyle2;
+            this.metroGrid1.EnableHeadersVisualStyles = false;
+            this.metroGrid1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.metroGrid1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            this.metroGrid1.Location = new System.Drawing.Point(144, 450);
+            this.metroGrid1.Name = "metroGrid1";
+            this.metroGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.metroGrid1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.metroGrid1.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            this.metroGrid1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.metroGrid1.Size = new System.Drawing.Size(445, 83);
+            this.metroGrid1.Style = MetroFramework.MetroColorStyle.White;
+            this.metroGrid1.TabIndex = 2;
+            this.metroGrid1.Theme = MetroFramework.MetroThemeStyle.Dark;
+            // 
+            // cODTABLEDataGridViewTextBoxColumn
+            // 
+            this.cODTABLEDataGridViewTextBoxColumn.DataPropertyName = "COD_TABLE";
+            this.cODTABLEDataGridViewTextBoxColumn.HeaderText = "COD_TABLE";
+            this.cODTABLEDataGridViewTextBoxColumn.Name = "cODTABLEDataGridViewTextBoxColumn";
+            this.cODTABLEDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // dESCRICAODataGridViewTextBoxColumn
+            // 
+            this.dESCRICAODataGridViewTextBoxColumn.DataPropertyName = "DESCRICAO";
+            this.dESCRICAODataGridViewTextBoxColumn.HeaderText = "DESCRICAO";
+            this.dESCRICAODataGridViewTextBoxColumn.Name = "dESCRICAODataGridViewTextBoxColumn";
+            // 
+            // vALORDataGridViewTextBoxColumn
+            // 
+            this.vALORDataGridViewTextBoxColumn.DataPropertyName = "VALOR";
+            this.vALORDataGridViewTextBoxColumn.HeaderText = "VALOR";
+            this.vALORDataGridViewTextBoxColumn.Name = "vALORDataGridViewTextBoxColumn";
+            // 
+            // sTATUSDataGridViewTextBoxColumn
+            // 
+            this.sTATUSDataGridViewTextBoxColumn.DataPropertyName = "STATUS";
+            this.sTATUSDataGridViewTextBoxColumn.HeaderText = "STATUS";
+            this.sTATUSDataGridViewTextBoxColumn.Name = "sTATUSDataGridViewTextBoxColumn";
+            // 
+            // tBLHTMLBindingSource
+            // 
+            this.tBLHTMLBindingSource.DataMember = "TBL_HTML";
+            this.tBLHTMLBindingSource.DataSource = this.bD16006ADataSet;
+            // 
+            // bD16006ADataSet
+            // 
+            this.bD16006ADataSet.DataSetName = "BD16006ADataSet";
+            this.bD16006ADataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // allselectToolStrip
+            // 
+            this.allselectToolStrip.Dock = System.Windows.Forms.DockStyle.None;
+            this.allselectToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.allselectToolStripButton});
+            this.allselectToolStrip.Location = new System.Drawing.Point(144, 422);
+            this.allselectToolStrip.Name = "allselectToolStrip";
+            this.allselectToolStrip.Size = new System.Drawing.Size(65, 25);
+            this.allselectToolStrip.TabIndex = 3;
+            this.allselectToolStrip.Text = "allselectToolStrip";
+            // 
+            // allselectToolStripButton
+            // 
+            this.allselectToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.allselectToolStripButton.Name = "allselectToolStripButton";
+            this.allselectToolStripButton.Size = new System.Drawing.Size(53, 22);
+            this.allselectToolStripButton.Text = "allselect";
+            this.allselectToolStripButton.Click += new System.EventHandler(this.allselectToolStripButton_Click);
+            // 
+            // tBL_HTMLTableAdapter
+            // 
+            this.tBL_HTMLTableAdapter.ClearBeforeFill = true;
+            // 
             // Tela_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -290,7 +418,9 @@
             this.BackImage = global::metronovoteste.Properties.Resources.logo;
             this.BackImagePadding = new System.Windows.Forms.Padding(30, 5, 0, 0);
             this.BackMaxSize = 70;
-            this.ClientSize = new System.Drawing.Size(1011, 530);
+            this.ClientSize = new System.Drawing.Size(1011, 537);
+            this.Controls.Add(this.allselectToolStrip);
+            this.Controls.Add(this.metroGrid1);
             this.Controls.Add(this.metroPanel1);
             this.Controls.Add(this.metroMenuStrip2);
             this.MainMenuStrip = this.metroMenuStrip2;
@@ -303,6 +433,11 @@
             this.metroMenuStrip2.ResumeLayout(false);
             this.metroMenuStrip2.PerformLayout();
             this.metroPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.metroGrid1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tBLHTMLBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bD16006ADataSet)).EndInit();
+            this.allselectToolStrip.ResumeLayout(false);
+            this.allselectToolStrip.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -337,6 +472,16 @@
         private MetroFramework.Controls.MetroButton metroButton3;
         private MetroFramework.Controls.MetroButton metroButton2;
         private MetroFramework.Controls.MetroButton metroButton1;
+        private MetroFramework.Controls.MetroGrid metroGrid1;
+        private BD16006ADataSet bD16006ADataSet;
+        private System.Windows.Forms.BindingSource tBLHTMLBindingSource;
+        private BD16006ADataSetTableAdapters.TBL_HTMLTableAdapter tBL_HTMLTableAdapter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn cODTABLEDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dESCRICAODataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn vALORDataGridViewTextBoxColumn;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sTATUSDataGridViewTextBoxColumn;
+        private System.Windows.Forms.ToolStrip allselectToolStrip;
+        private System.Windows.Forms.ToolStripButton allselectToolStripButton;
     }
 }
 

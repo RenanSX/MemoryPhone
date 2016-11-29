@@ -41,6 +41,8 @@ namespace metronovoteste
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'bD16006ADataSet.TBL_HTML' table. You can move, or remove it, as needed.
+            this.tBL_HTMLTableAdapter.Fill(this.bD16006ADataSet.TBL_HTML);
 
         }
 
@@ -88,6 +90,19 @@ namespace metronovoteste
         {
             Application.Exit();
             //Close();
+        }
+
+        private void allselectToolStripButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                this.tBL_HTMLTableAdapter.allselect(this.bD16006ADataSet.TBL_HTML);
+            }
+            catch (System.Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show(ex.Message);
+            }
+
         }
 
         

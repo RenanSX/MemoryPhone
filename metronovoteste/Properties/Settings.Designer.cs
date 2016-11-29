@@ -22,5 +22,16 @@ namespace metronovoteste.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=10.101.0.41\\SQLEXPRESS;Initial Catalog=BD16006A;User ID=sa;Password=D" +
+            "avi0587#")]
+        public string BD16006A {
+            get {
+                return ((string)(this["BD16006A"]));
+            }
+        }
     }
 }
